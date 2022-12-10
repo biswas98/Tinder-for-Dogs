@@ -1,0 +1,224 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+/* Section 1 Title */
+#title {
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.Big-heading {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.container-fluid {
+    padding: 3% 15% 9%;
+}
+
+
+/* Nav bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    /* 18px left & right ::: 0px top & bottom */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.iphone {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Section 2 id= features */
+
+#features{
+    padding: 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.featuresDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-icon{
+    margin: 4%;
+    font-size: 50px;
+    color: #ef8172;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+.contentHeading{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.contentPara{
+    text-align: center;
+    width: 60%;
+    color: #8f8f8f;
+}
+
+/* Section 3 Testimonials*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.carousel-item{    
+    padding: 7% 15%;
+}
+
+.test-text{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.test-img{
+    width: 10% ;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/* Section 4 Press */
+
+#press{
+    background-color: #ef8172; 
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+.press-img{
+    width: 12%;
+    margin: 20px 20px;
+}
+
+/* Section 5 Price */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
+
+.price-heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.card-heading{
+    font-weight: bold;
+}
+
+.displayed-price{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 2;
+}
+
+
+/* Section 5 cta */
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+   
+}
+
+.cta-head{
+    /* padding: 4% 25% 2%; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.ctaBTN{
+    margin: 4% 1% 0;
+}
+
+.fa-apple{
+    margin-right: 10px;
+}
+
+.fa-google-play{
+    margin-right: 10px;
+}
+
+/* Section 6 Footer */
+#footer{
+    padding: 5% 5% 0;
+    background-color: #fff;
+    text-align: center;
+}
+.handles{
+    margin: 0 .5% 1%;
+}
+
+/* Adding some "Media Query" for responsivness */
+@media (max-width: 1423px) {
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* extra= Top-nav */
+/* 
+.top-nav{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+} */
